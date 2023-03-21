@@ -1,0 +1,12 @@
+:root {
+    --black: #232931;
+    --white: #eeeeee;
+    --green:#4ecca3;
+    --darkgrey:#393e46;
+  }
+  
+  body{
+    background-color: #232931;
+  }
+
+  

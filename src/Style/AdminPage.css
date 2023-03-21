@@ -1,0 +1,93 @@
+:root {
+    --black: #232931;
+    --white: #eeeeee;
+    --green:#4ecca3;
+    --darkgrey:#393e46;
+    --red:#f95959;
+    --blue:#537791;
+    --lightgrey:#c1c0b9;
+  }  
+
+.container{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.highlight{
+    color: #4ecca3;
+  }
+    
+
+
+.table_liste_users{
+    color: var(--black);
+    border-collapse: collapse;
+    width: 90%;
+    border-radius: 150px;
+  
+}
+
+.table_liste_users th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4ecca3;
+    color: white;
+}
+
+.table_liste_users td, #customers th {
+    border:none;
+    padding: 8px;
+}
+
+.table_liste_users tr{
+    background-color: var(--white);
+}
+
+.table_liste_users tr:hover {
+    background-color: var(--lightgrey);
+    transition: 0.6s;
+}
+
+.edit_button{
+    background-color: var(--blue);
+    padding: 10px;
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    width: 60px;
+}
+.edit_button:hover{
+    background-color: #37576d;
+    transition:0.6s ;
+}
+
+.delete_button{
+    background-color: var(--red);
+    padding: 10px;
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    width: 60px;
+}
+.delete_button:hover{
+    background-color: #cb4242;
+    transition:0.6s ;
+}
+
+.a_th{
+    background-color: var(--black);
+    cursor: pointer; 
+    color: var(--green);
+}
+
+.a_th:hover{
+    background-color: var(--darkgrey);
+    transition: 0.6s;
+
+}
+
+
+
+
+

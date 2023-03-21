@@ -1,0 +1,91 @@
+:root {
+  --black: #232931;
+  --white: #eeeeee;
+  --green:#4ecca3;
+  --darkgrey:#393e46;
+  --red:#f95959;
+  --blue:#537791;
+  --lightgrey:#c1c0b9;
+} 
+
+body{
+  background-color: var(--black);
+}
+
+.form-container {
+      width: 20%;
+      text-align: left;
+      margin: 100px 37%;
+      padding: 30px;
+      background-color: #393e46;
+      border:none;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px var(--green);
+    }
+  
+
+    h1 {
+      color: #eeeeee;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="password"],
+    textarea {
+      background-color: var(--white);
+      width: 100%;
+      padding: 15px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #eeeeee;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 16px;
+      
+    }
+
+    input:focus{
+      border: #4ecca3;
+      outline: none;
+    }
+    label{
+      color :var(--white);
+    }
+
+    button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4ecca3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+  .error{
+    color:var(--red);
+    padding:10px;
+  }
+
+.password_wrapper{
+  position: relative;
+}
+
+.eye_icon {
+  position: absolute;
+  top: 45%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: var(--green);
+}
+
+    @media screen and (max-width: 600px) {
+      .form-container {
+        width: 80%;
+      }
+    }
